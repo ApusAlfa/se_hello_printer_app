@@ -14,6 +14,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
 
+  # obecnie po stworzeniu pliku Makefile zamiast dwóch lini powyżej wystarczy użyć:
+  $ make deps
+
   # zobacz
   $ pip list
   ```
@@ -36,6 +39,10 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
   ```
+  ```
+  # obecnie po stworzeniu pliku Makefile zamiast dwóch lini powyżej wystarczy użyć:
+  $ make test
+  ```
 
 - Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
 
@@ -47,7 +54,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
