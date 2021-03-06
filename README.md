@@ -69,6 +69,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 ## Ubuntu
 
 - Instalacja dockera: [dockerce howto](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+apt install docker.io 
 
 ## Centos
 
