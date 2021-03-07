@@ -9,6 +9,10 @@ msg = "Hello World!"
 
 @app.route('/')
 def index():
+    if 'name' in request.args:
+        moje_imie = request.args['name']
+    else:
+        moje_imie = 'Marta'
     output = request.args.get('output')
     if not output:
         output = PLAIN
